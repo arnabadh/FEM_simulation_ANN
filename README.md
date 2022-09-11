@@ -1,1 +1,2 @@
-# FEM_simulation_ANN
+# FEM_simulation_ANN :
+The dataset contains the data of about 6000 numerical simulations (finite element models, FEM).There are 9 input parameters and 4 output results. I have scaled the input and output parameters and implemented neural network in keras with sigmoid as activation function, Mean Square error as loss function and trained the model with depth equal to, two hidden layers and epochs as 200.Further, I plotted the loss function of train and test dataset. The RMSE came to be around (0.25079). 
